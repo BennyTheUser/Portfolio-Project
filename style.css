@@ -1,0 +1,100 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+/* Universal Page Code */
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color:dimgrey;
+    padding-bottom: 2%;
+}
+
+nav a {
+    text-decoration: none;
+    border-radius: 5%;
+    font-size: 115%;
+    color:dimgray;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color:goldenrod;
+}
+
+nav *{
+    padding: 20px;
+    font-size: 24px;
+    color:white;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    background-color:dimgrey;
+    color: white;
+    padding: 0 2% 0 2%;
+}
+
+footer h2 {
+    font-size: 20px;
+}
+
+footer a {
+    padding: 10px;
+    font-size: 20px;
+    color:dimgray;
+    text-decoration: none;
+    width: 100%;
+}
+
+footer p {
+    padding: 0 70% 0 70%;
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color:goldenrod;
+}
+
+footer section {
+    display: flex;
+    justify-content: center;
+    width: 65%;
+    align-items: center;
+}
+
+/* Home Page Code */
+
+
+
+/* About Page Code */
+
+
+
+/* Experiences Page Code */
+
+
+
+/* Work Page Code */
+
+
+
+/* Resume Page Code */
+
+
+
+/* Writing Page Code */
+
+
+
+/* Other Work Page Code */
+
+
+
+/* Contact Page Code */
