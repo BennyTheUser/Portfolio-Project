@@ -9,14 +9,16 @@ nav {
     display: flex;
     justify-content: center;
     background-color:dimgrey;
-    padding-bottom: 2%;
+    padding: 1%;
 }
 
 nav a {
     text-decoration: none;
-    border-radius: 5%;
+    align-self: center;
+    border-style: double;
+    border-radius: 20%;
     font-size: 115%;
-    color:dimgray;
+    color: white;
 }
 
 nav a:hover {
@@ -30,52 +32,67 @@ nav *{
     color:white;
 }
 
+header h3 {
+    font-size: 250%;
+}
+
 footer {
-    display: flex;
-    flex-wrap: wrap;
-    text-decoration: none;
-    background-color:dimgrey;
-    color: white;
-    padding: 0 2% 0 2%;
-}
-
-footer h2 {
-    font-size: 20px;
-}
-
-footer a {
-    padding: 10px;
-    font-size: 20px;
-    color:dimgray;
-    text-decoration: none;
-    width: 100%;
-}
-
-footer p {
-    padding: 0 70% 0 70%;
-    text-decoration: none;
-    color: white;
-}
-
-footer a:hover {
-    text-decoration: underline;
-    color:goldenrod;
-}
-
-footer section {
+    position: relative;
+    left: 0%;
+    bottom: 0%;
     display: flex;
     justify-content: center;
-    width: 65%;
     align-items: center;
+    background-color:dimgrey;
+    color: white;
+}
+
+footer > nav {
+    display: flex;
+}
+
+footer > .info {
+    display: flex;
 }
 
 /* Home Page Code */
 
+main {
+    background-color: #D9D9D9;
+}
 
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 150%;
+}
+
+.occupation{
+    display: flex;
+    justify-content: center;
+}
+
+.desc-title {
+    display: flex;
+    justify-content: center;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+}
 
 /* About Page Code */
 
+.title2 {
+    display:flex;
+    flex-wrap: wrap;
+}
 
+img {
+    width: 35%;
+    height: 35%;
+}
 
 /* Experiences Page Code */
 
