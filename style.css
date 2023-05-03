@@ -82,6 +82,16 @@ main {
     justify-content: center;
 }
 
+.extra-links {
+    display: flex;
+}
+
+/* .greeting {
+    display: flex;
+    flex-direction:column;
+    width: 90%;
+} */
+
 /* About Page Code */
 
 .title2 {
