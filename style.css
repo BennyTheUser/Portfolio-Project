@@ -59,6 +59,10 @@ img {
     max-width: 100%;
 }
 
+section {
+    display: block;
+}
+
 /* Home Page Code */
 
 main {
@@ -158,16 +162,19 @@ main {
 
 /* Work Page Code */
 
-.slideshiw img {
+.wrapper {
+    max-width: 800px;
+}
+
+.slideshow img {
     vertical-align: middle;
     width: 50%;
 }
 
 .slideshow {
-    max-width: 200%;
-    position: relative;
-    margin: auto;
-    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    background:rgb(0,0,0,.2);
 }
 
 .prev, .next{
