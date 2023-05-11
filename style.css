@@ -100,7 +100,12 @@ main {
 }
 
 .link {
-    width: 100%;
+    /* width: 100%; */
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
     text-align: center;
     font-size: 5vh;
 }
@@ -122,11 +127,17 @@ main {
     margin-left: 32%;
 }
 
-/* .greeting {
-    display: flex;
-    flex-direction:column;
-    width: 90%;
-} */
+.underline {
+    height: 3px;
+    width: 0%;
+    transition: width 0.3s;
+    display: block;
+    background-color: darkred;
+}
+
+.link:hover .underline {
+    width: 100%;
+}
 
 /* About Page Code */
 
@@ -159,6 +170,12 @@ main {
 
 /* Experiences Page Code */
 
+.title3 {
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
 
 /* Work Page Code */
 
@@ -336,9 +353,28 @@ ul {
     padding-bottom: 1.5em;
 }
 
+/* .entry-description {
+    margin-left: 30%;
+}
+
+.image-row {
+    width: 50%;
+} */
+
 /* Contact Page Code */
 
+.title8 {
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
 
+.full-box {
+    display: flex;
+    flex-wrap: wrap;
+
+}
 
 /* Media Querry */
 
