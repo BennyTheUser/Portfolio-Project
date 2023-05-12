@@ -7,7 +7,8 @@
 
 nav {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     background-color:dimgrey;
     padding: 1%;
 }
@@ -15,10 +16,6 @@ nav {
 nav a {
     text-decoration: none;
     align-self: center;
-    border-style: double;
-    border-radius: 20%;
-    font-size: 115%;
-    color: white;
 }
 
 nav a:hover {
@@ -41,6 +38,7 @@ footer {
     left: 0%;
     bottom: 0%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     background-color:dimgrey;
@@ -170,11 +168,46 @@ main {
 
 /* Experiences Page Code */
 
+.text-container1 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: auto;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+}
+
 .title3 {
     text-align: center;
     font-size: 1.5em;
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
+    width: 60%;
+    padding: 0.6rem;
+    border-radius: 20px;
+    background-color:dimgray;
+    color: white;
+}
+
+.coding-experiences {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: auto;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+}
+
+.coding-title {
+    text-align: center;
+    font-size: 1.5em;
+    width: 60%;
+    padding: 0.6rem;
+    border-radius: 20px;
+    background-color:dimgray;
+    color: white;
 }
 
 /* Work Page Code */
@@ -371,10 +404,53 @@ ul {
 }
 
 .full-box {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: auto;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+}
 
+.concluding-note {
+    text-align: center;
+    font-size: 1.5em;
+    width: 60%;
+    padding: 0.6rem;
+    border-radius: 20px;
+    background-color:dimgray;
+    color: white;
+}
+
+.contact-methods {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: auto;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+    text-align: center;
+    font-size: 1em;
+    width: 20%;
+    padding: 0.6rem;
+    border-radius: 20px;
+    background-color:dimgray;
+    color: white;
 }
 
 /* Media Querry */
 
+@media screen and (max-width: 480px){
+    nav a {
+        font-size: 10px;
+    }
+    .about-content {
+        flex-wrap: wrap;
+    }
+}
